@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import LeftBox from './LeftBox.jsx';
-import Navigation from './Navigation.jsx';
+import Home from './Home.jsx';
+
 
 class App extends Component {
   constructor(props) {
@@ -18,8 +18,7 @@ class App extends Component {
   render() {
       return (
         <div className="total-wrapper">
-          <LeftBox page={ this.state.page }/>
-          <Navigation newPage={ this.changePage }/>
+          <Home />
         </div>
       )
   };
