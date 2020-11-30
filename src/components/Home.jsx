@@ -8,13 +8,14 @@ class Home extends Component {
    }
 
    onChange(e) {
-      this.props.newPage(e.target.getAttribute('name'));
+      this.props.chgPg(e.target.getAttribute('name'));
    }
 
    render() {
       return (
 
-         <div className='container'>
+         <div>
+
             <div className='homeIMG-box'>
                <div className='homeIMG-innerBox'>
                   <div className='homeImg'></div> 
@@ -25,14 +26,10 @@ class Home extends Component {
                <div className='homeNav-box'>
                   <div className='homeNav-innerBox'>
                      <div className='homeNav-nav'>
-
-
                         <div className='homeNav-into'>
                            <span>Hi</span><br />
                            <span>I'M SEN</span>
                         </div>
-
-
                         <div className='change-to-outline'>
                            <span className='homeNav-nav-link' name='about' onClick={this.onChange}>ABOUT</span><br />
                            <span className='homeNav-nav-link' name='projects' onClick={this.onChange}>PROJECT/S</span><br />
