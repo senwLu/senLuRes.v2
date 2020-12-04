@@ -3,8 +3,8 @@ import React from 'react';
 
 const About = () => {
   	return (
-    	<div className='innerL-container' >
-      	<h1 className='slide-right'>.Abouts(<span className='about-style'>'me'</span>)</h1>
+    	<div className='about-container' >
+			<h1 className='slide-right'>ABOUT</h1>
 			<div className='aboutme-wrapper slide-left'>
 			<p>
 					Hi, I'm Sen - a <span className='about-style'>Full-Stack Software Engineer </span> 
@@ -25,9 +25,6 @@ const About = () => {
 							<p><span className='about-style'>Testing</span>&nbsp;&nbsp;Jest, Enzyme, Mocha-Chai</p>
 						</div>
 				</div>
-				{/* <div  className='column'>
-					<img className='about-col-img choseImg' src={ coffee }/>
-				</div> */}
 			</div>
     	</div>
   	)

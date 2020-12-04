@@ -32,7 +32,7 @@ class Home extends Component {
                         </div>
                         <div className='change-to-outline'>
                            <span className='homeNav-nav-link' name='about' onClick={this.onChange}>ABOUT</span><br />
-                           <span className='homeNav-nav-link' name='projects' onClick={this.onChange}>PROJECT/S</span><br />
+                           <span className='homeNav-nav-link' name='project' onClick={this.onChange}>PROJECT/S</span><br />
                            <span className='homeNav-nav-link'>CONTACT</span>
                         </div>
                      </div>

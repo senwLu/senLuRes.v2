@@ -8,7 +8,7 @@ class App extends Component {
 	constructor(props) {
 		super(props);
 			this.state = {
-				page: "home"
+				page: "about"
 			};
 		this.changePage = this.changePage.bind(this);
 	};
@@ -26,8 +26,8 @@ class App extends Component {
 			)
 		} else if (this.state.page !== 'home') {
 			return (
-				<div className='totalContainer '>
-					<NavBar />
+				<div className='totalContainer'>
+					<NavBar chgPg={this.changePage} page={this.state.page}/>
 					<PgContainer pgInfo={this.state.page} />
 				</div>
 			)

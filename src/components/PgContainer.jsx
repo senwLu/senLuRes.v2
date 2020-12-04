@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './About.jsx';
+import Project from './Project.jsx'
 
 const PgContainer = ( {pgInfo} ) => {
 
@@ -7,6 +8,12 @@ const PgContainer = ( {pgInfo} ) => {
     return (
       <div>
         <About />
+      </div>
+    )
+  } else if (pgInfo === 'project') {
+    return (
+      <div>
+        <Project />
       </div>
     )
   }
