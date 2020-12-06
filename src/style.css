@@ -106,10 +106,10 @@ body {
   height: 25px;
   display: flex;
   justify-content: flex-end;
-  margin: 25px auto 20vh auto;
+  margin: 25px auto 10vh auto;
   
   font-family: "Raleway", sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   color: #00643c;
 }
 
@@ -133,10 +133,14 @@ body {
 
 .about-container h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 3em;
+  font-size: 3.5em;
   color: #00643c;
 }
 
+.aboutme-wrapper {
+  margin-top: -1em;
+  font-size: 2.2em;
+}
 
 
 
@@ -144,5 +148,11 @@ body {
 .change-to-outline {
   -webkit-text-stroke: 1.5px #00643c;
   color: #dedede;
+}
+
+/* Change set style-color */
+.style-color {
+  color: #00643c;
+  font-weight: 600;
 }
 
