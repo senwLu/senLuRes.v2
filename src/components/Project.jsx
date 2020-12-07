@@ -4,6 +4,39 @@ import React from 'react';
 const Project = () => {
   	return (
     	<div className='project-container' >
+			<h1 className='setStyle-h1'>Project/S</h1>
+
+			<div className='project-wrapper'>
+
+				<div className='project-box'>
+					<p className='project-box-front'>CalculatorJS</p>
+					<div className='project-box-back'>
+						<p>A simple calculator created with just vanilla JS</p>
+						<p className='project-box-detail'>Tools used: JavaScript, ReactJS, Webpacks</p>
+					</div>
+				</div>
+
+				<div className='project-box'>
+					<p>Placeholder2</p>
+				</div>
+
+				<div className='project-box'>
+					<p>Placeholder3</p>
+				</div>
+
+				<div className='project-box'>
+					<p>Placeholder4</p>
+				</div>
+
+				<div className='project-box'>
+					<p>Placeholder5</p>
+				</div>
+
+				<div className='project-box'>
+					<p>Placeholder6</p>
+				</div>
+				
+			</div>
 
     	</div>
   	)

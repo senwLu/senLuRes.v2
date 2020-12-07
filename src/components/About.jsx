@@ -4,8 +4,7 @@ import React from 'react';
 const About = () => {
   	return (
     	<div className='about-container' >
-			<h1>ABOUT</h1>
-
+			<h1 className='setStyle-h1'>ABOUT</h1>
 			<div className='aboutme-wrapper'>
 				<p>
 					Hi, I'm Sen - a <span className='style-color'>Full-Stack Software Engineer </span> 
@@ -16,7 +15,6 @@ const About = () => {
 					<span className='style-color'> Seattle</span> and is looking for new and exciting opportunities.
 				</p>
 			</div>
-
 			<div>
 				<p><span className='style-color'>Education</span>&nbsp;&nbsp;Seattle University + Hack Reactor @ Galvanize</p>
 				<p><span className='style-color'>Languages</span>&nbsp;&nbsp;JavaScript, HTML, CSS</p>
