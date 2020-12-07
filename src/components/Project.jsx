@@ -17,25 +17,25 @@ const Project = () => {
 				</div>
 
 				<div className='project-box'>
-					<p>Placeholder2</p>
+					<p>Placeholder 2</p>
 				</div>
 
 				<div className='project-box'>
-					<p>Placeholder3</p>
+					<p>Placeholder 3</p>
 				</div>
 
 				<div className='project-box'>
-					<p>Placeholder4</p>
+					<p>Placeholder 4</p>
 				</div>
 
 				<div className='project-box'>
-					<p>Placeholder5</p>
+					<p>Placeholder 5</p>
 				</div>
 
 				<div className='project-box'>
-					<p>Placeholder6</p>
+					<p>Placeholder 6</p>
 				</div>
-				
+
 			</div>
 
     	</div>
