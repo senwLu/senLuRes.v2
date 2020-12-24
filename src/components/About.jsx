@@ -4,7 +4,7 @@ import React from 'react';
 const About = () => {
   	return (
     	<div className='about-container' >
-			<h1 className='setStyle-h1'>ABOUT</h1>
+			<h1 className='setStyle-h1 slide-bottom'>ABOUT</h1>
 			<div className='aboutme-wrapper'>
 				<p>
 					Hi, I'm Sen - a <span className='style-color'>Full-Stack Software Engineer </span> 

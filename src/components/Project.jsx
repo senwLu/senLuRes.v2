@@ -4,17 +4,14 @@ import React from 'react';
 const Project = () => {
   	return (
     	<div className='project-container' >
-			<h1 className='setStyle-h1'>Project/S</h1>
+			<h1 className='setStyle-h1 slide-bottom'>Project/S</h1>
 
 			<div className='project-wrapper'>
+				<a href="https://github.com/senwLu/calc_React" target="_blank" className='project-box'>
+					<p className='project-box-title'>CalculatorJS</p>
+					<p className='project-box-detail'>Tools used: JavaScript, ReactJS, Webpacks</p>
+				</a>
 
-				<div className='project-box'>
-					<p className='project-box-front'>CalculatorJS</p>
-					<div className='project-box-back'>
-						<p>A simple calculator created with just vanilla JS</p>
-						<p className='project-box-detail'>Tools used: JavaScript, ReactJS, Webpacks</p>
-					</div>
-				</div>
 
 				<div className='project-box'>
 					<p>Placeholder 2</p>
