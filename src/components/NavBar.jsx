@@ -27,8 +27,12 @@ class NavBar extends Component {
                   <div name='project' onClick={this.onChange}>PROJECT/S</div>
                </div>
                <div className='icon-container'>
-               <img className='iconPNG-resize' src={githubPNG} alt=""/>
-                  <img className='iconPNG-resize' src={linkedinPNG} alt=""/>
+                  <a href="https://github.com/senwLu" target="_blank">
+                     <img src={githubPNG} alt=""/>
+                  </a>
+                  <a href="https://linkedin.com/in/senwlu" target="_blank">
+                     <img src={linkedinPNG} alt=""/>
+                  </a>
                </div>               
             </div>
 
@@ -42,8 +46,12 @@ class NavBar extends Component {
                   <div className='change-to-outline'>PROJECT/S</div>
                </div>    
                <div className='icon-container'>
-               <img className='iconPNG-resize' src={githubPNG} alt=""/>
-                  <img className='iconPNG-resize' src={linkedinPNG} alt=""/>
+                  <a href="https://github.com/senwLu" target="_blank">
+                     <img src={githubPNG} alt=""/>
+                  </a>
+                  <a href="https://linkedin.com/in/senwlu" target="_blank">
+                     <img src={linkedinPNG} alt=""/>
+                  </a>
                </div>            
             </div>
 
