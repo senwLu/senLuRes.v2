@@ -7,7 +7,7 @@ const Project = () => {
 			<h1 className='setStyle-h1 slide-bottom'>Project/S</h1>
 
 			<div className='project-wrapper'>
-				<a href="https://github.com/senwLu/calc_React" target="_blank" className='project-box'>
+				<a href="https://github.com/senwLu/calcReact.v2" target="_blank" className='project-box'>
 					<p className='project-box-title'>CalculatorJS</p>
 					<p className='project-box-detail'>Tools used: JavaScript, ReactJS, Webpacks</p>
 				</a>
